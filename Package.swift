@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "nSureSDK",
+    name: "nSure",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "nSureSDK",
+            name: "nSure",
             targets: ["nSure"]
         ),
     ],
